@@ -85,5 +85,5 @@ public class QuickSort {
 /* 
 Important Stuff:
 1. In partition(),the while (arr.get(i) <= pivot && i <= high - 1) makes sure that upon incrementation of i the array index is not out of bound, if it was for only i <= high and after the i++ we would have got this error of out of bound. Vice-Versa for the other while() 
-2. In partition() among the while (arr.get(i) <= pivot && i <= high - 1), the condition (arr.get(i) <= pivot) makes sure that any duplicate element in an array should be in the left part of the pivot 
+2. In partition() among the while (arr.get(i) <= pivot && i <= high - 1), the condition (arr.get(i) <= pivot) makes sure that any duplicate element in an array should be in the left part of the pivot.
  */

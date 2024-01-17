@@ -174,3 +174,40 @@ The conditions `i <= high - 1` and `j >= low + 1` are used in the `while` loops 
    - If the conditions `i <= high - 1` and `j >= low + 1` were not present, there would be a risk of going beyond the bounds of the current subarray, which could lead to unexpected behavior or errors.
 
 In summary, these conditions are used to ensure that the pointers `i` and `j` stay within the bounds of the current subarray during the partitioning process. They help prevent array index out-of-bounds errors and ensure that the algorithm operates correctly on each subarray.
+
+Let's discuss the time and space complexity of the provided QuickSort algorithm.
+
+### Time Complexity:
+
+The time complexity of the QuickSort algorithm is generally expressed in terms of the number of comparisons and swaps performed. In the average and best cases, QuickSort has a time complexity of O(n log n), making it highly efficient for large datasets. However, in the worst case, it can degrade to O(n^2), but this is relatively rare and depends on the choice of the pivot.
+
+- **Best Case (average time complexity):** O(n log n)
+  - Occurs when the pivot chosen divides the array into two nearly equal halves.
+
+- **Average Case:** O(n log n)
+  - On average, QuickSort provides good performance due to the recursive division of the array.
+
+- **Worst Case:** O(n^2)
+  - Occurs when the pivot selection consistently results in highly imbalanced partitions.
+  - Choosing the middle element as the pivot usually helps avoid this scenario, but it is not always guaranteed.
+
+### Space Complexity:
+
+The space complexity of the provided QuickSort algorithm is determined by its recursive nature and the space required for the function call stack. The space complexity is O(log n) on average in the best and average cases, but it can degrade to O(n) in the worst case.
+
+- **Average and Best Case:** O(log n)
+  - In the average and best cases, the maximum depth of the recursion is log(n) due to the partitioning of the array into halves.
+
+- **Worst Case:** O(n)
+  - In the worst case (highly imbalanced partitions), the maximum depth of the recursion becomes n, leading to a space complexity of O(n).
+
+### In-Place Sorting:
+
+The provided QuickSort algorithm is an in-place sorting algorithm, meaning it does not require additional memory proportional to the size of the input array. The space complexity is primarily determined by the depth of the recursive call stack.
+
+### Considerations:
+
+- The efficiency of QuickSort depends on the choice of the pivot. A good pivot selection strategy, such as choosing the middle element, helps improve its performance.
+- Randomized versions of QuickSort can be used to mitigate the risk of encountering the worst-case scenario with high probability.
+
+In summary, QuickSort is an efficient in-place sorting algorithm with an average and best-case time complexity of O(n log n). The space complexity is O(log n) on average, but it can degrade to O(n) in the worst case.
