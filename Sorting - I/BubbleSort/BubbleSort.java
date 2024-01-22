@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class BubbleSort {
     static void bubble_sort(int[] arr, int n) {
         // Outer loop runs n-1 times
