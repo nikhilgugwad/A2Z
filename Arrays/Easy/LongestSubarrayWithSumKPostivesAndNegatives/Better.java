@@ -1,7 +1,7 @@
 package LongestSubarrayWithSumKPostivesAndNegatives;
 
 public class Better {
-    
+
     // Method to find the length of the longest subarray with sum K
     static int longest_subarray(int[] arr, int n, int k) {
         // Initialize variables

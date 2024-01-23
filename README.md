@@ -20,26 +20,11 @@ This repository hosts the Data Structures and Algorithms Problems sheet created 
 - **Java Solutions:** Solutions to problems in Java with comments for code explanations.
 - **Readme.md Files:** Detailed explanations of each problem, including time and space complexities, different approaches, and sometimes diagrammatic explanations.
 
-## Topics
-
-### Sorting - I
-
-1. **[Bubble Sort](https://github.com/nikhilgugwad/A2Z/blob/main/Sorting%20-%20I/BubbleSort/BubbleSort.java)**
-2. **[Insertion Sort](https://github.com/nikhilgugwad/A2Z/blob/main/Sorting%20-%20I/InsertionSort/InsertionSort.java)**
-3. **[Selection Sort](https://github.com/nikhilgugwad/A2Z/blob/main/Sorting%20-%20I/SelectionSort/SelectionSort.java)**
-   
-### Sorting - II
-
-1. **[Merge Sort](https://github.com/nikhilgugwad/A2Z/blob/main/Sorting%20-%20II/MergeSort/MergeSort.java)**
-2. **[Quick Sort](https://github.com/nikhilgugwad/A2Z/blob/main/Sorting%20-%20II/QuickSort/QuickSort.java)**
-3. **[Recursive Bubble Sort](https://github.com/nikhilgugwad/A2Z/blob/main/Sorting%20-%20II/RecursiveBubbleSort/RecursiveBubbleSort.java)**
-4. **[Recursive Insertion Sort](https://github.com/nikhilgugwad/A2Z/blob/main/Sorting%20-%20II/RecursiveInsertionSort/RecursiveInsertionSort.java)**
-
 ## How to Use
 
 1. **Explore Topics:**
    Navigate through topic folders to find specific problems.
-  
+
 2. **Read Problem Statements:**
    Open the respective problem's readme.md file for detailed explanations.
 
@@ -64,5 +49,3 @@ Contributions to enhance problem explanations, optimize solutions, or add new to
 For flowchart or diagrammatic explanations, refer to the official website [takeuforward.org](https://takeuforward.org).
 
 Happy coding!
-
-
